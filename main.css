@@ -1,0 +1,39 @@
+body {
+  color: #333;
+  font: 1.1em 'Montaga', serif;
+  margin: 2em;
+}
+
+a {
+  color: #0744ff;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgba(255, 0, 0, 0.075);
+  color: red;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 1.5em;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+ul li a {
+  font-size: 2em;
+}
+
+p {
+  margin-top: 0;
+}

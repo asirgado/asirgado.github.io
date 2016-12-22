@@ -15,8 +15,6 @@ a:hover {
 }
 
 img {
-  height: auto;
-  max-width: 100%;
   margin-bottom: 15px;
 }
 
@@ -36,4 +34,11 @@ ul li a {
 
 p {
   margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    height: auto;
+    max-width: 100%;
+  }
 }
